@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/png" href="data/icons8-aperture-16.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="container-top">
+      <img class="logo" src="data/logo-vpap.png"><img>
+    </div>
+    <div class="navbare" class="container-top">
+      <div class="snt-btn">
+        <button class="navbare-btn" id="button-1" onclick="scrollToSection('section-1')">
+          PRÉSENTATION
+        </button>
+        <button class="navbare-btn" id="button-2" onclick="scrollToSection('section-2')">
+          COLLABORATEURS
+        </button>
+        <button class="navbare-btn">
+          CONTACTE
+        </button>
+      </div>
+    </div>
+    <div class="container-top">
+      <video src="data/vpap-1.mp4" autoplay muted loop></video>
+    </div>
+
+    <div id="section-1"></div>
+
+    <div class="top-presentation"xx>
+      <h1>PRÉSENTATION</h1>
+    </div>
+
+    <div class="container-presentation">
+      <img class="img-presentation" src="data/Capture d’écran 2023-01-27 194453.png">
+        <div class="txt-presentation">
+          <h3>Bonjour, je suis Alexis, vidéaste passionné. Mon objectif est de créer des vidéos de qualité supérieure qui captivent et engagent mon public. Je porte une grande attention aux détails et je suis constamment à la recherche de nouvelles tendances pour améliorer mes créations.</h3>
+          <h3>Mes vidéos se distinguent par leur qualité professionnelle et leur originalité. J'utilise des techniques avancées de tournage pour donner vie à mes idées et offrir un résultat final de la plus haute qualité.</h3>
+          <h3>Si vous cherchez un vidéaste créatif qui peut vous fournir des vidéos de qualité supérieure, contactez-moi dès maintenant pour discuter de votre projet et découvrir comment je peux vous aider à obtenir des vidéos qui dépasseront vos attentes.</h3>
+        </div>
+    </div>
+
+    <div class="space-img-vpap">
+      <img class="space-vpap" src="data/space-vpap.png"><img>
+    </div>
+    
+    <div class="top-collaborateurs">
+      <h1>COLLABORATEURS</h1>
+    </div>
+
+    <div class="container-collaborateurs" id="section-2">
+        <div class="txt-collaborateurs">
+          <h3>Cher futur client,</h3>
+          <h3>Nous sommes heureux de vous inviter à rejoindre notre entreprise de production audiovisuelle VPAP. Nous sommes convaincus que nous pouvons répondre à tous vos besoins en matière de production audiovisuelle.</h3>
+          <h3>Chez VPAP, nous sommes spécialisés dans la prise de vue en drone pour créer des images spectaculaires et uniques pour nos clients. Nous sommes passionnés par la création de contenu audiovisuel innovant et de haute qualité pour répondre aux exigences de nos clients. Nous nous engageons à offrir les meilleurs équipements et services pour tous vos projets de production audiovisuelle, qu'il s'agisse de films, de publicités, de vidéos corporatives, de documentaires ou de tout autre projet.</h3>
+          <h3>Nous sommes fiers de dire que VPAP est une entreprise qui s'engage à fournir un service exceptionnel à nos clients. Nous sommes convaincus que notre expertise et notre savoir-faire sauront vous satisfaire et dépasser vos attentes.</h3>
+          <h3>Chez VPAP, nous sommes à l'écoute de vos besoins et nous travaillons avec vous pour créer du contenu audiovisuel sur mesure qui répondra à vos attentes.</h3>
+          <h3>Nous vous invitons à nous rejoindre et à découvrir pourquoi nous sommes l'entreprise de production audiovisuelle de choix pour de nombreux clients. Contactez-nous dès maintenant pour discuter de votre projet et pour commencer à travailler avec nous.</h3>
+          <h3>Cordialement,</h3>
+          <h3>L'équipe de VPAP</h3>
+        </div>
+    </div>
+
+
+    <script>
+      function scrollToSection(sectionId) {
+        var section = document.getElementById(sectionId);
+        section.scrollIntoView({behavior: "smooth"});
+      }
+    </script>
+
+
+    <div class="link-footer">
+      <h3>LINK</h3>
+        <nav>
+          <a href="mailto:vpap.video@gmail.com"><img src="data/icons8-message-32.png" alt=""></a>
+          <a href="https://www.instagram.com/vpap_production/"><img src="data/icons8-instagram-32.png" alt=""></a>
+        </nav>
+    </div> 
+  </body>
+</html>
